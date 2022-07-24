@@ -247,7 +247,7 @@ header .icons i:hover{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     overflow: hidden;
     cursor: grab;
-    margin: 1em auto;
+    margin: 3em auto;
     padding: 1em;
     display: flex;
     align-items: center;
@@ -289,11 +289,10 @@ header .icons i:hover{
 }
 
 /* contact section */
-
 .contact-info{
    max-width: 1300px;
    width: 100%;
-   margin: 1rem auto;
+   margin: 2rem auto;
    
 }
 .contact-info p{
@@ -338,18 +337,18 @@ header .icons i:hover{
 }
 .footer a{
     text-decoration: none;
-    background: #F1F1F1;
     padding: 0.8em;
     color: #fff;
 }
 .footer .social_links{
-    padding: 2em;
+    padding: 2rem;
 }
 .social_links i{
-    font-size: 1.5em;
+    font-size: 2rem;
+    padding: 0.5rem;
 }
 .footer p{
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 .footer span{
     border-bottom: 1px solid #fff;
