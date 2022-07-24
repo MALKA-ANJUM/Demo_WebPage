@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo">LOGO</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons"> 
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+    </header>
+<!-- login form container  -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>Forget password? <a href="#">click here</a></p>
+            <p>Don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+<!-- home section -->
+<div class="home" id="home">
+        <div class="slider">
+            <ul>
+                <li id="slider-1" class="slide">
+                    <img src="pic1.jpg">
+                    <a class="prev" href="#slider-4">prev</a>
+                    <a class="next" href="#slider-2">next</a>          
+                </li>
+                <li id="slider-2" class="slide">
+                    <img src="pic2.jpg"> 
+                    <a class="prev" href="#slider-1">prev</a> 
+                    <a class="next" href="#slider-3">next</a>
+                </li>
+                <li id="slider-3" class="slide">
+                    <img src="pic3.jpg"> 
+                    <a class="prev" href="#slider-2">prev</a> 
+                    <a class="next" href="#slider-4">next</a>
+                </li>
+                <li id="slider-4" class="slide">
+                    <img src="pic4.jpg"> 
+                    <a class="prev" href="#slider-3">prev</a> 
+                    <a class="next" href="#slider-1">next</a>         
+                </li>
+            </ul>
+        </div> 
+    </div>
+<!-- product section -->    
+    <div id="product">
+        <h2>Product</h2>
+        <div class="container">
+            <div class="cards">
+                <div class="card">
+                    <img src="dress (1).jpg" alt="" />
+                    <div class="card__content">
+                        <h1>Dress 1</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dress (2).jpg" />
+                    <div class="card__content">
+                        <h1>Dress 2</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dress (3).jpg" alt="" />
+                    <div class="card__content">
+                      <h1>Dress 3</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dress(4).jpg" alt="" />
+                    <div class="card__content">
+                      <h1>Dress 4</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dress (5).jpg" alt="" />
+                    <div class="card__content">
+                      <h1>Dress 5</h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="dress (6).jpg" alt="" />
+                    <div class="card__content">
+                      <h1>Dress 6</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div id="contact">
+            <h2>Contact me</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-map-marker-alt fa-2x"></i>&nbsp; &nbsp; Chicago, US</p>
+            <p><i class="fas fa-phone-alt fa-2x"></i>&nbsp; &nbsp;  Phone: +00 151515  </p>
+            <p><i class="fas fa-envelope fa-2x"></i>&nbsp; &nbsp;  Email: mail@mail.com  </p>  
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <input type="text" placeholder="Message" required>
+            <button><i class="fas fa-paper-plane"></i> SEND MESSAGE</button>
+            <img src="map.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <a href="#top"><i class="fas fa-arrow-up"></i>&nbsp; To the top</a>
+        <div class="social_links">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>
+            Malka Anjum <span>@2022</span> 
+        </p>   
+    </div> 
+    
+
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/e80646ae69.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
